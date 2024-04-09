@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Data reception
-      - run: echo "instruction was received to build"
+        run: echo "instruction was received to build"
