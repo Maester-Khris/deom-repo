@@ -1,0 +1,16 @@
+{
+  "name": "deom-repo",
+  "version": "1.0.0",
+  "description": "my description",
+  "main": "script.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
