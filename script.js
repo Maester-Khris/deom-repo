@@ -1,3 +1,9 @@
 function hello(){
-    console.log("hi buddy");
+    return "hi buddy";
 }
+
+function addVal(a, b){
+    return a+b;
+}
+
+module.exports = {hello, addVal}
