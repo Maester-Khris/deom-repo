@@ -13,5 +13,6 @@ jobs:
       with:
         node-version: '18.19'
     - name: Install dependencies, build and test
-    - run: npm ci
-    - run: npm test
+      run: |
+        npm ci
+        npm test
